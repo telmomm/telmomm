@@ -9,56 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Telmo Miguel-Medina
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Associate Professor of Electronics in the Department of Electromechanical Engineering, University of Burgos.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* Electronics, BSc in Health Engineering (2023–2026).
+* Fundamentals of Electronic Engineering, BSc in Industrial Electronics and Automation Engineering (2021–2022).
+* Supervised three final-year projects in 2025.
+
+Selected Work
 ======
-* Currently signed in to 43 different slack teams
+* Journal article in *Sensors* (2026).
+* Book *Electrónica en Ingeniería Biomédica — Volumen I* (Biomedical Electronics — Volume I) (2026), ISBN 979-13-992911-1-7.
+* Three patent records and two additional software/intellectual-property registrations.
+
+Profiles
+======
+* [Public CVN](https://editor.cvn.fecyt.es/0009-0004-0654-6650)
+* [University of Burgos research profile](https://investigacion.ubu.es/investigadores/131581/detalle)
+* [ORCID](https://orcid.org/0009-0004-0654-6650)
+* [Google Scholar]({{ site.author.googlescholar }})
+* [GitHub](https://github.com/telmomm)
+* [LinkedIn](https://www.linkedin.com/in/telmo-miguel-medina-071ab172)
+
+Publications, Teaching, and Patents
+======
+See the [Publications](/publications/), [Teaching](/teaching/), and [Patents](/patents/) pages.

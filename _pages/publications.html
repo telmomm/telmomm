@@ -6,31 +6,36 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">See also my <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<h2>Published Papers</h2>
+<ul>
+  <li><a href="https://doi.org/10.3390/s26051656">Development of a Machine Learning-Based Predictive Model and Clinically Oriented Web Application for 30-Day Mortality Following Cardiac Surgery</a>. T. Miguel-Medina, S. Góngora Alonso, I. de la Torre Díez, M. Blanco Sáez, H. L. A. Elissalt, A. Ruigómez Noriega, and M. L. del Río Solá. <i>Sensors</i>, 26(5), 1656 (2026).</li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Published Books</h2>
+<ul>
+  <li><a href="https://doi.org/10.5281/zenodo.22802673"><i>Electrónica en Ingeniería Biomédica — Volumen I</i> (Biomedical Electronics — Volume I)</a>. Telmo Miguel Medina. Libros para el infinito (2026). ISBN 979-13-992911-1-7.</li>
+</ul>
+
+<h2>Research Materials</h2>
+<ul>
+  <li><a href="https://doi.org/10.21203/rs.3.rs-7793831/v1">Comparative Evaluation of SHAP and LIME for Clinical Interpretability in Postoperative Cardiac Surgery Mortality Prediction Models</a>. Preprint.</li>
+  <li><a href="https://scholar.google.com/citations?view_op=view_citation&amp;user=gakQq-sAAAAJ&amp;citation_for_view=gakQq-sAAAAJ:YsMSGLbcyi4C">Experimental Error Modeling and Post-Processing Correction of NanoVNA Measurements Using Low-Cost Calibration Standards</a>.</li>
+  <li><a href="https://scholar.google.com/citations?view_op=view_citation&amp;user=gakQq-sAAAAJ&amp;citation_for_view=gakQq-sAAAAJ:W7OEmFMy1HYC">Low-Cost ADS-B Out Architecture with Certification-Oriented Design and Integrated RF Monitoring</a>.</li>
+  <li><a href="https://github.com/telmomm/github-research-infrastructure-study">From Code Repository to Research Infrastructure: Evaluating GitHub for Managing the Scientific Research Lifecycle</a>.</li>
+  <li><a href="https://doi.org/10.5281/zenodo.18635916">Thirty-Day Mortality After Cardiac Surgery in MIMIC-IV: An ICU-Centred EHR Study</a>. Data and materials on Zenodo (2026).</li>
+  <li><a href="https://zenodo.org/records/18353434">PreMoCir Machine Learning SHAP-LIME Notebooks</a>. Zenodo (2026).</li>
+  <li><a href="https://zenodo.org/records/18249069">PreMoCir Machine Learning Model Development Notebooks</a>. Zenodo (2026).</li>
+  <li><a href="https://scholar.google.com/citations?view_op=view_citation&amp;user=gakQq-sAAAAJ&amp;citation_for_view=gakQq-sAAAAJ:9yKSN-GCB0IC">Aplicación de Machine Learning para la predicción de la mortalidad en cirugía cardíaca</a> (Machine Learning for the Prediction of Mortality in Cardiac Surgery).</li>
+</ul>
+
+<h2>Teaching Materials</h2>
+<ul>
+  <li><a href="https://hdl.handle.net/10259/12077">Sistemas de Adquisición y Control: Versión 1.0</a> (Acquisition and Control Systems: Version 1.0). Lecture notes, RIUBU (2026).</li>
+  <li><a href="https://hdl.handle.net/10259/12151">Sistemas de Adquisición y Control: Versión 1.0 — Cuaderno de Prácticas</a> (Acquisition and Control Systems: Version 1.0 — Workbook). RIUBU (2026).</li>
+</ul>
 
 
 

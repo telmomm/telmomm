@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Telmo Miguel-Medina"
 title_separator          : "-"
 name                     : &name "Telmo"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Electronics, biomedical engineering, research software, and open teaching resources."
 url                      : https://telmomm.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,25 +23,25 @@ repository               : "telmomm/telmomm.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://investigacion.ubu.es/img/uploaded/EBC144C12712350C8B29EDC725BBCA78.png"
   name             : "Telmo Miguel-Medina"
   pronouns         : # example: "she/her"  
-  bio              : "Research Scientist"
-  location         : "Earth"
-  employer         : "Burgos University"
-  uri              : # URL
+  bio              : "Associate Professor of Electronics"
+  location         : "Burgos, Spain"
+  employer         : "University of Burgos"
+  uri              : "https://investigacion.ubu.es/investigadores/131581/detalle"
   email            : "tmiguel@ubu.es" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.es/citations?user=gakQq-sAAAAJ&hl=es&authuser=1"
+  googlescholar    : "https://scholar.google.com/citations?user=gakQq-sAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0004-0654-6650"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "telmo-miguel-medina-071ab172"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

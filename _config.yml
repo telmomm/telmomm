@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Telmo Miguel-Medina"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Research Scientist"
   location         : "Earth"
   employer         : "Burgos University"
   uri              : # URL
@@ -88,8 +88,8 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  #conferences:
+   # title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
